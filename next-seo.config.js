@@ -3,7 +3,7 @@ export default {
     type: 'website',
     locale: 'en_US',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://lilnouns.dev',
-    site_name: 'Lil Nouns',
+    site_name: 'Lil Nouns Online',
   },
   twitter: {
     handle: '@nekofar',
