@@ -2,8 +2,8 @@ export default {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://lilnouns.dev/',
-    site_name: 'Lil Nouns',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://lilnouns.dev',
+    site_name: 'Lil Nouns Online',
   },
   twitter: {
     handle: '@nekofar',

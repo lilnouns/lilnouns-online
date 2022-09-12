@@ -5,14 +5,14 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Lil Nouns</title>
-        <meta name="description" content="" />
+        <title>Lil Nouns Online</title>
+        <meta name="description" content="Live feed of what happens in the community" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex h-screen justify-center items-center">
         <div className="m-auto">
-          <h1 className="text-3xl">Lil Nouns</h1>
+          <h1 className="text-3xl">Lil Nouns Online</h1>
           <p className="text-xl">We are building something!</p>
         </div>
       </main>
