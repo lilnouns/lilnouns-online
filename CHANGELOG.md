@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.1] - 2022-09-12
+
+### <!-- 02 -->Bug Fixes
+
+- Solve missing url on next seo open graph
+- Update home page title and description
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Enable pre and post scripts runing by `pnpm`
+- Add `wrangler` for develop and serve functions
+
 ## [1.0.0-alpha.0] - 2022-09-12
 
 ### <!-- 04 -->Refactor
