@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.3] - 2022-09-14
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump pnpm/action-setup from 2.0.1 to 2.2.2
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Enable automatic install of peer dependencies
+- Bump @types/react from 18.0.19 to 18.0.20
+- Bump @types/node from 18.7.16 to 18.7.18
+- Update pnpm lockfile frozen state
+
 ## [1.0.0-alpha.2] - 2022-09-12
 
 ### <!-- 07 -->Continuous Integrations
