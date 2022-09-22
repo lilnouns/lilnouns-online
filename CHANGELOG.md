@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.7] - 2022-09-22
+
+### <!-- 04 -->Refactor
+
+- Change events full date to relative calendar format
+
 ## [1.0.0-alpha.6] - 2022-09-22
 
 ### <!-- 08 -->Miscellaneous Tasks
