@@ -48,7 +48,7 @@ const Home: NextPage = () => {
                               <h3 className="text-sm font-medium">
                                 {event.address.substring(0, 6) + '...' + event.address.substring(event.address.length - 6, event.address.length)}
                               </h3>
-                              <p className="text-sm text-gray-500">{moment.unix(event.created).format('LLLL')}</p>
+                              <p className="text-sm text-gray-500">{moment.unix(event.created).calendar()}</p>
                             </div>
                             <p className="text-sm text-gray-500">
                               {event.title}
