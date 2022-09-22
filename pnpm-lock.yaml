@@ -8,6 +8,7 @@ specifiers:
   dayjs: ^1.11.5
   eslint: 8.23.1
   eslint-config-next: 12.3.1
+  moment: ^2.29.4
   next: 12.3.1
   next-seo: ^5.5.0
   next-sitemap: ^3.1.22
@@ -21,6 +22,7 @@ specifiers:
 dependencies:
   autoprefixer: 10.4.9_postcss@8.4.16
   dayjs: 1.11.5
+  moment: 2.29.4
   next: 12.3.1_biqbaboplfbrettd7655fr4n2y
   next-seo: 5.5.0_azq6kxkn3od7qdylwkyksrwopy
   next-sitemap: 3.1.22_mna6xsgplvxkrmeg4ftolwenke
@@ -1981,6 +1983,10 @@ packages:
 
   /minimist/1.2.6:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
+
+  /moment/2.29.4:
+    resolution: {integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==}
+    dev: false
 
   /ms/2.0.0:
     resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
