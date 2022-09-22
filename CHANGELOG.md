@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.6] - 2022-09-22
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Exclude `functions` folder from root `tsconfig`
+
 ## [1.0.0-alpha.5] - 2022-09-22
 
 ### <!-- 01 -->Features
