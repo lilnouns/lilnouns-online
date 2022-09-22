@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.5] - 2022-09-22
+
+### <!-- 01 -->Features
+
+- Add a pages middleware to proxy api requests
+- Add recent proposal related events to the home page
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update pnpm lockfile frozen state
+- Add `dayjs@1.11.5` to dependencies
+- Add `moment@2.29.4` to dependencies
+- Add `@cloudflare/workers-types@3.16.0` to dependencies
+
 ## [1.0.0-alpha.4] - 2022-09-21
 
 ### <!-- 08 -->Miscellaneous Tasks
