@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.8] - 2022-09-23
+
+### <!-- 04 -->Refactor
+
+- Remove reversing events from api and increase numbers
+
 ## [1.0.0-alpha.7] - 2022-09-22
 
 ### <!-- 04 -->Refactor
