@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.9] - 2022-09-24
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.0.20 to 18.0.21
+
 ## [1.0.0-alpha.8] - 2022-09-23
 
 ### <!-- 04 -->Refactor
