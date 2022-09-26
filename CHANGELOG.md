@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.10] - 2022-09-26
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.7.18 to 18.7.21
+- Bump eslint from 8.23.1 to 8.24.0
+- Add `wagmi@0.6.7` to dependencies
+- Add `ethers@5.7.1` to dependencies
+
 ## [1.0.0-alpha.9] - 2022-09-24
 
 ### <!-- 08 -->Miscellaneous Tasks
