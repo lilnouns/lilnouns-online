@@ -2,6 +2,7 @@ import type {NextPage} from "next";
 import Head from "next/head";
 import {useEffect, useState} from "react";
 import moment from "moment";
+import {useEnsName} from "wagmi";
 
 interface Event {
   address: string;
@@ -10,6 +11,24 @@ interface Event {
   title: string;
   type: string;
 }
+
+const Name = (props: { address: string }) => {
+  const {data: ensName} = useEnsName({
+    address: props.address,
+  })
+
+  const addressShortened : string = `${props.address.substring(0, 6)}...${props.address.substring(38, 42)}`
+  let addressOrEnsName = addressShortened
+  if (ensName != undefined) {
+    addressOrEnsName = ensName
+  }
+
+  return (
+    <div>
+      {addressOrEnsName}
+    </div>
+  )
+};
 
 const Home: NextPage = () => {
   const [events, setEvents] = useState<Event[]>([])
@@ -38,26 +57,26 @@ const Home: NextPage = () => {
           <div className="max-w-4xl mx-auto">
             <div className="bg-white shadow overflow-hidden sm:rounded-lg">
               {!isLoading ? (
-                  <ul role="list" className="divide-y divide-gray-200">
-                    {[...events].slice(0, 25).map((event) => (
-                      <li key={`${event.created}`} className="px-4 py-5">
-                        <div className="flex space-x-3">
-                          {/*<img className="h-6 w-6 rounded-full" src={} alt="" />*/}
-                          <div className="flex-1 space-y-1">
-                            <div className="flex items-center justify-between">
-                              <h3 className="text-sm font-medium">
-                                {event.address.substring(0, 6) + '...' + event.address.substring(event.address.length - 6, event.address.length)}
-                              </h3>
-                              <p className="text-sm text-gray-500">{moment.unix(event.created).calendar()}</p>
-                            </div>
-                            <p className="text-sm text-gray-500">
-                              {event.title}
-                            </p>
+                <ul role="list" className="divide-y divide-gray-200">
+                  {[...events].slice(0, 25).map((event, index) => (
+                    <li key={`${index}`} className="px-4 py-5">
+                      <div className="flex space-x-3">
+                        {/*<img className="h-6 w-6 rounded-full" src={} alt="" />*/}
+                        <div className="flex-1 space-y-1">
+                          <div className="flex items-center justify-between">
+                            <h3 className="text-sm font-medium">
+                              <Name address={event.address}/>
+                            </h3>
+                            <p className="text-sm text-gray-500">{moment.unix(event.created).calendar()}</p>
                           </div>
+                          <p className="text-sm text-gray-500">
+                            {event.title}
+                          </p>
                         </div>
-                      </li>
-                    ))}
-                  </ul>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
               ) : (
                 <div className="py-12 sm:px-6 lg:px-8 text-center">
                   <div role="status">
@@ -74,7 +93,7 @@ const Home: NextPage = () => {
                     <span className="sr-only">Loading...</span>
                   </div>
                 </div>
-              ) }
+              )}
               {!events && <p className="py-12 sm:px-6 lg:px-8">No events data</p>}
             </div>
           </div>
