@@ -2,7 +2,8 @@ import type {NextPage} from "next";
 import Head from "next/head";
 import {useEffect, useState} from "react";
 import moment from "moment";
-import {useEnsName} from "wagmi";
+import {useEnsAvatar, useEnsName} from "wagmi";
+import Blockies from 'react-blockies';
 
 interface Event {
   address: string;
@@ -23,11 +24,25 @@ const Name = (props: { address: string }) => {
     addressOrEnsName = ensName
   }
 
-  return (
-    <div>
-      {addressOrEnsName}
-    </div>
-  )
+  return <>{addressOrEnsName}</>
+};
+
+const Avatar = (props: {address: string}) => {
+  const { data: ensAvatar} = useEnsAvatar({
+    addressOrName: props.address,
+  })
+
+  let placeholderOrEnsAvatar = <img className="h-6 w-6 rounded-full border" src={`${ensAvatar}`} alt="" />;
+  if (!ensAvatar) {
+    placeholderOrEnsAvatar = <Blockies
+      seed={props.address?.toLowerCase() || ''}
+      size={10}
+      scale={2}
+      className={'h-6 w-6 rounded-full'}
+    />;
+  }
+
+  return placeholderOrEnsAvatar
 };
 
 const Home: NextPage = () => {
@@ -61,7 +76,7 @@ const Home: NextPage = () => {
                   {[...events].slice(0, 25).map((event, index) => (
                     <li key={`${index}`} className="px-4 py-5">
                       <div className="flex space-x-3">
-                        {/*<img className="h-6 w-6 rounded-full" src={} alt="" />*/}
+                        <Avatar address={event.address} />
                         <div className="flex-1 space-y-1">
                           <div className="flex items-center justify-between">
                             <h3 className="text-sm font-medium">
