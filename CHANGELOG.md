@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.11] - 2022-10-11
+
+### <!-- 02 -->Bug Fixes
+
+- Disable `strict-peer-dependencies` on `npmrc`
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/setup-node from 3.4.1 to 3.5.0
+- Bump actions/cache from 3.0.8 to 3.0.10
+- Bump actions/checkout from 3.0.2 to 3.1.0
+- Bump pnpm/action-setup from 2.2.2 to 2.2.3
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump typescript from 4.8.3 to 4.8.4
+- Bump eslint from 8.24.0 to 8.25.0
+- Bump @types/node from 18.7.21 to 18.8.4
+- Add a example file for environmental variables
+- Update the lock file of `pnpm`
+
 ## [1.0.0-alpha.10] - 2022-09-26
 
 ### <!-- 08 -->Miscellaneous Tasks
