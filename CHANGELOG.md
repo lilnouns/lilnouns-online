@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.12] - 2022-10-11
+
+### <!-- 01 -->Features
+
+- Add ens instead of address if available
+- Add ens avatar of address if available
+
+### <!-- 02 -->Bug Fixes
+
+- Solve console errors related to duplicate keys
+
+### <!-- 04 -->Refactor
+
+- Replace loading text with a spinner
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `react-blockies@1.4.1` to dependencies
+
 ## [1.0.0-alpha.11] - 2022-10-11
 
 ### <!-- 02 -->Bug Fixes
