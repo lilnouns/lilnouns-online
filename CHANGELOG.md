@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.13] - 2022-10-11
+
+### <!-- 02 -->Bug Fixes
+
+- Increase number of event from `25` to `50`
+
 ## [1.0.0-alpha.12] - 2022-10-11
 
 ### <!-- 01 -->Features
