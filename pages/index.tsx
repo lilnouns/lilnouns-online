@@ -39,8 +39,8 @@ const Home: NextPage = () => {
             <div className="bg-white shadow overflow-hidden sm:rounded-lg">
               {!isLoading ? (
                   <ul role="list" className="divide-y divide-gray-200">
-                    {[...events].slice(0, 25).map((event) => (
-                      <li key={`${event.created}`} className="px-4 py-5">
+                    {[...events].slice(0, 25).map((event, index) => (
+                      <li key={`${index}`} className="px-4 py-5">
                         <div className="flex space-x-3">
                           {/*<img className="h-6 w-6 rounded-full" src={} alt="" />*/}
                           <div className="flex-1 space-y-1">
