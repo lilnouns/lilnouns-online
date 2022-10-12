@@ -73,7 +73,7 @@ const Home: NextPage = () => {
             <div className="bg-white shadow overflow-hidden sm:rounded-lg">
               {!isLoading ? (
                 <ul role="list" className="divide-y divide-gray-200">
-                  {[...events].slice(0, 50).map((event, index) => (
+                  {[...events].map((event, index) => (
                     <li key={`${index}`} className="px-4 py-5">
                       <div className="flex space-x-3">
                         <Avatar address={event.address} />
