@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.14] - 2022-10-12
+
+### <!-- 02 -->Bug Fixes
+
+- Increase number of event from `50` to `100`
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `images.unoptimized` to the next configs
+
 ## [1.0.0-alpha.13] - 2022-10-11
 
 ### <!-- 02 -->Bug Fixes
