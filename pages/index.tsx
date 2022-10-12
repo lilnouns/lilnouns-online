@@ -2,8 +2,8 @@ import type {NextPage} from "next";
 import Head from "next/head";
 import {useEffect, useState} from "react";
 import moment from "moment";
-import {useEnsAvatar, useEnsName} from "wagmi";
-import Blockies from 'react-blockies';
+import {EnsName} from "../components/ens-name";
+import {EnsAvatar} from "../components/ens-avatar";
 
 interface Event {
   address: string;
@@ -12,38 +12,6 @@ interface Event {
   title: string;
   type: string;
 }
-
-const Name = (props: { address: string }) => {
-  const {data: ensName} = useEnsName({
-    address: props.address,
-  })
-
-  const addressShortened : string = `${props.address.substring(0, 6)}...${props.address.substring(38, 42)}`
-  let addressOrEnsName = addressShortened
-  if (ensName != undefined) {
-    addressOrEnsName = ensName
-  }
-
-  return <>{addressOrEnsName}</>
-};
-
-const Avatar = (props: {address: string}) => {
-  const { data: ensAvatar} = useEnsAvatar({
-    addressOrName: props.address,
-  })
-
-  let placeholderOrEnsAvatar = <img className="h-6 w-6 rounded-full border" src={`${ensAvatar}`} alt="" />;
-  if (!ensAvatar) {
-    placeholderOrEnsAvatar = <Blockies
-      seed={props.address?.toLowerCase() || ''}
-      size={10}
-      scale={2}
-      className={'h-6 w-6 rounded-full'}
-    />;
-  }
-
-  return placeholderOrEnsAvatar
-};
 
 const Home: NextPage = () => {
   const [events, setEvents] = useState<Event[]>([])
@@ -76,11 +44,11 @@ const Home: NextPage = () => {
                   {[...events].map((event, index) => (
                     <li key={`${index}`} className="px-4 py-5">
                       <div className="flex space-x-3">
-                        <Avatar address={event.address} />
+                        <EnsAvatar address={event.address} />
                         <div className="flex-1 space-y-1">
                           <div className="flex items-center justify-between">
                             <h3 className="text-sm font-medium">
-                              <Name address={event.address}/>
+                              <EnsName address={event.address}/>
                             </h3>
                             <p className="text-sm text-gray-500">{moment.unix(event.created).calendar()}</p>
                           </div>
