@@ -6,6 +6,7 @@ export const EnsAvatar = (props: { address: string }) => {
     addressOrName: props.address,
   })
 
+  // eslint-disable-next-line @next/next/no-img-element
   let placeholderOrEnsAvatar = <img className="h-6 w-6 rounded-full border" src={`${ensAvatar}`} alt=""/>;
   if (!ensAvatar) {
     placeholderOrEnsAvatar = <Blockies
