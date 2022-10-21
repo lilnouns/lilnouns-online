@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.15] - 2022-10-21
+
+### <!-- 02 -->Bug Fixes
+
+- Solve a type issues related to `wagmi` new version
+
+### <!-- 04 -->Refactor
+
+- Extract ens components to separate files
+- Simplify conditions over `EnsName` component
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/setup-node from 3.5.0 to 3.5.1
+- Bump actions/cache from 3.0.10 to 3.0.11
+- Bump pnpm/action-setup from 2.2.3 to 2.2.4
+- Add node version `18` to the `build` workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump wagmi from 0.6.8 to 0.7.5
+- Bump @types/node from 18.8.4 to 18.11.2
+- Bump @types/node from 18.11.2 to 18.11.3
+- Update the lock file of `pnpm`
+- Suppress `next/no-img-element` for `eslint`
+- Update the lock file of `pnpm`
+
 ## [1.0.0-alpha.14] - 2022-10-12
 
 ### <!-- 02 -->Bug Fixes
