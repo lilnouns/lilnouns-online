@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.16] - 2022-10-24
+
+### <!-- 07 -->Continuous Integrations
+
+- Improve `build` workflow based on template
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.11.3 to 18.11.4
+- Bump eslint from 8.25.0 to 8.26.0
+- Update the lock file of `pnpm`
+
 ## [1.0.0-alpha.15] - 2022-10-21
 
 ### <!-- 02 -->Bug Fixes
