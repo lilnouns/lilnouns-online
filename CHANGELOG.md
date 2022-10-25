@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.19] - 2022-10-25
+
+### <!-- 04 -->Refactor
+
+- Improve index background appearance
+
 ## [1.0.0-alpha.18] - 2022-10-25
 
 ### <!-- 08 -->Miscellaneous Tasks
