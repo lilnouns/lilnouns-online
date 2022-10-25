@@ -13,6 +13,8 @@
     "export": "next export"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.3",
+    "@heroicons/react": "^2.0.12",
     "@types/react-blockies": "^1.4.1",
     "autoprefixer": "^10.4.9",
     "dayjs": "^1.11.5",
