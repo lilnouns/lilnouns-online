@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.17] - 2022-10-25
+
+### <!-- 01 -->Features
+
+- Improve index appearance and separate components
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `@headlessui/react:1.7.3` to dependencies
+- Add `@heroicons/react:2.0.12` to dependencies
+
 ## [1.0.0-alpha.16] - 2022-10-24
 
 ### <!-- 07 -->Continuous Integrations
