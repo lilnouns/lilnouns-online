@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.18] - 2022-10-25
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react-dom from 18.0.6 to 18.0.7
+- Bump @types/node from 18.11.4 to 18.11.5
+- Update the lock file of `pnpm`
+
 ## [1.0.0-alpha.17] - 2022-10-25
 
 ### <!-- 01 -->Features
