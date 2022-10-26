@@ -1,4 +1,5 @@
-import {Address, useEnsName} from "wagmi";
+import Link from "next/link";
+import {Address, useEnsName, etherscanBlockExplorers} from "wagmi";
 
 export const EnsName = (props: { address: string }) => {
   const {data: ensName} = useEnsName({
@@ -7,5 +8,12 @@ export const EnsName = (props: { address: string }) => {
 
   let addressOrEnsName = ensName ?? `${props.address.substring(0, 6)}...${props.address.substring(38, 42)}` as const;
 
-  return <>{addressOrEnsName}</>
+  return (
+    <Link
+      target="_blank"
+      href={`${etherscanBlockExplorers.mainnet.url}/address/${props.address}`}
+    >
+      {addressOrEnsName}
+    </Link>
+  )
 };
