@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.23] - 2022-10-26
+
+### <!-- 01 -->Features
+
+- Add link to the explorer over ens name component
+
 ## [1.0.0-alpha.22] - 2022-10-26
 
 ### <!-- 01 -->Features
