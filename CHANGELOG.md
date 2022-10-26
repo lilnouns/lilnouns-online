@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.21] - 2022-10-26
+
+### <!-- 01 -->Features
+
+- Add alchemy to the `wagmi` providers
+
+### <!-- 07 -->Continuous Integrations
+
+- Add node version `19` to the `build` workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next from 12.3.1 to 13.0.0
+- Bump @types/react from 18.0.21 to 18.0.23
+- Bump eslint-config-next from 12.3.1 to 13.0.0
+- Update the lock file of `pnpm`
+
 ## [1.0.0-alpha.20] - 2022-10-25
 
 ### <!-- 02 -->Bug Fixes
