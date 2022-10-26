@@ -4,9 +4,11 @@ import {DefaultSeo} from "next-seo";
 import SEO from '../next-seo.config';
 import {configureChains, createClient, defaultChains, WagmiConfig} from "wagmi";
 import {publicProvider} from 'wagmi/providers/public'
+import { alchemyProvider } from 'wagmi/providers/alchemy'
 
 const {provider, webSocketProvider} = configureChains(defaultChains, [
-  publicProvider(),
+  alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_API_KEY }),
+  publicProvider()
 ])
 
 const client = createClient({
