@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.22] - 2022-10-26
+
+### <!-- 01 -->Features
+
+- Add infura to the `wagmi` providers
+
+### <!-- 02 -->Bug Fixes
+
+- Add priority to the `wagmi` providers
+
 ## [1.0.0-alpha.21] - 2022-10-26
 
 ### <!-- 01 -->Features
