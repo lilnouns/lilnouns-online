@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.24] - 2022-10-27
+
+### <!-- 01 -->Features
+
+- Add direct link to the events on time
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.11.5 to 18.11.7
+- Update the lock file of `pnpm`
+
 ## [1.0.0-alpha.23] - 2022-10-26
 
 ### <!-- 01 -->Features
