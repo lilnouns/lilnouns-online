@@ -2,6 +2,7 @@ import {EnsAvatar} from "./ens-avatar";
 import {EnsName} from "./ens-name";
 import moment from "moment";
 import {useEffect, useState} from "react";
+import Link from "next/link";
 
 interface Event {
   address: string;
@@ -9,6 +10,7 @@ interface Event {
   source: string;
   title: string;
   type: string;
+  link: string;
 }
 
 export function Events() {
@@ -40,7 +42,11 @@ export function Events() {
                         <h3 className="text-sm font-medium">
                           <EnsName address={event.address}/>
                         </h3>
-                        <p className="text-sm text-gray-500">{moment.unix(event.created).calendar()}</p>
+                        <p className="text-sm text-gray-500">
+                          <Link href={`${event.link}`} target="_blank">
+                            {moment.unix(event.created).calendar()}
+                          </Link>
+                        </p>
                       </div>
                       <p className="text-sm text-gray-500">
                         {event.title}
