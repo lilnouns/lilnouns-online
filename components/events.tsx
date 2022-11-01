@@ -3,6 +3,7 @@ import {EnsName} from "./ens-name";
 import moment from "moment";
 import {useEffect, useState} from "react";
 import Link from "next/link";
+import {useIdle, useInterval} from "react-use";
 
 interface Event {
   address: string;
@@ -13,19 +14,36 @@ interface Event {
   link: string;
 }
 
+async function fetchEvents() {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/online/events`)
+
+  const json = await res.json()
+  if (json.errors) {
+    console.error(json.errors)
+    throw new Error('Failed to fetch events.')
+  }
+
+  return json.data.events
+}
+
 export function Events() {
+  const isIdle = useIdle(30e3);
   const [events, setEvents] = useState<Event[]>([])
   const [isLoading, setLoading] = useState(false)
 
   useEffect(() => {
-    setLoading(true)
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/online/events`)
-      .then((res) => res.json())
-      .then((data) => {
-        setEvents(data.data.events)
-        setLoading(false)
-      })
+    (async () => {
+      setLoading(true)
+      setEvents(await fetchEvents())
+      setLoading(false)
+    })()
   }, [])
+
+  useInterval(async () => {
+    setLoading(true)
+    setEvents(await fetchEvents())
+    setLoading(false)
+  },!isIdle ? 30e4 : null)
 
   return (
     <div className="max-w-7xl mx-auto py-12 sm:px-6 lg:px-8">
@@ -36,7 +54,7 @@ export function Events() {
               {[...events].map((event, index) => (
                 <li key={`${index}`} className="px-4 py-5">
                   <div className="flex space-x-3">
-                    <EnsAvatar address={event.address} />
+                    <EnsAvatar address={event.address}/>
                     <div className="flex-1 space-y-1">
                       <div className="flex items-center justify-between">
                         <h3 className="text-sm font-medium">
