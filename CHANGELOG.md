@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.26] - 2022-12-06
+
+### <!-- 02 -->Bug Fixes
+
+- Replace `addressOrName` by `address` on `useEnsAvatar`
+- Solve type error over `alchemyApiKey` and `infuraApiKey`
+
+### <!-- 07 -->Continuous Integrations
+
+- Add the `pnpm` workflow to update lock file
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.11.8 to 18.11.9 ([#47](https://github.com/orhun/git-cliff/issues/47))
+- Bump next from 13.0.1 to 13.0.2 ([#48](https://github.com/orhun/git-cliff/issues/48))
+- Bump eslint-config-next from 13.0.1 to 13.0.2 ([#49](https://github.com/orhun/git-cliff/issues/49))
+- Bump @types/react from 18.0.24 to 18.0.25 ([#50](https://github.com/orhun/git-cliff/issues/50))
+- Bump eslint from 8.26.0 to 8.27.0 ([#51](https://github.com/orhun/git-cliff/issues/51))
+- Bump wagmi from 0.7.15 to 0.8.1 ([#52](https://github.com/orhun/git-cliff/issues/52))
+- Bump next from 13.0.2 to 13.0.3 ([#53](https://github.com/orhun/git-cliff/issues/53))
+- Bump typescript from 4.8.4 to 4.9.3 ([#56](https://github.com/orhun/git-cliff/issues/56))
+- Bump @types/react-dom from 18.0.8 to 18.0.9 ([#55](https://github.com/orhun/git-cliff/issues/55))
+- Bump eslint-config-next from 13.0.2 to 13.0.3 ([#54](https://github.com/orhun/git-cliff/issues/54))
+- Bump next from 13.0.3 to 13.0.4 ([#57](https://github.com/orhun/git-cliff/issues/57))
+- Bump @cloudflare/workers-types from 3.18.0 to 4.20221111.1 ([#58](https://github.com/orhun/git-cliff/issues/58))
+- Bump @types/node from 18.11.9 to 18.11.11 ([#61](https://github.com/orhun/git-cliff/issues/61))
+- Bump eslint from 8.27.0 to 8.29.0 ([#63](https://github.com/orhun/git-cliff/issues/63))
+- Bump @types/react from 18.0.25 to 18.0.26 ([#62](https://github.com/orhun/git-cliff/issues/62))
+- Bump next from 13.0.3 to 13.0.6 ([#64](https://github.com/orhun/git-cliff/issues/64))
+- Bump eslint-config-next from 13.0.3 to 13.0.6 ([#65](https://github.com/orhun/git-cliff/issues/65))
+
 ## [1.0.0-alpha.25] - 2022-11-01
 
 ### <!-- 08 -->Miscellaneous Tasks
