@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@cloudflare/workers-types': ^3.16.0
+  '@cloudflare/workers-types': ^4.20221111.1
   '@headlessui/react': ^1.7.3
   '@heroicons/react': ^2.0.12
   '@types/node': 18.11.9
@@ -45,7 +45,7 @@ dependencies:
   wagmi: 0.8.1_jaa62cbmsyfasqxjzs4b73onte
 
 devDependencies:
-  '@cloudflare/workers-types': 3.16.0
+  '@cloudflare/workers-types': 4.20221111.1
   '@types/node': 18.11.9
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
@@ -1394,8 +1394,8 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@cloudflare/workers-types/3.16.0:
-    resolution: {integrity: sha512-gaBUSaKS65mN3iKZEgichbXYEmAa/pXkc5Gbt+1BptYphdGkj09ggdsiE4w8g0F/uI1g36QaTKrzVnBAWMipvQ==}
+  /@cloudflare/workers-types/4.20221111.1:
+    resolution: {integrity: sha512-BNV2wN8V6Zduvo7UzxcdjBbLQ906D2KhS804PDufLgx/sanGJCHVJMOIaLvS/b61JKtot1U7P/l1fjrjZ7/E3A==}
     dev: true
 
   /@coinbase/wallet-sdk/3.5.3_djri3vqlwy57tzyhtqcpv4fqgq:
