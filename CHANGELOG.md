@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.27] - 2022-12-12
+
+### <!-- 02 -->Bug Fixes
+
+- Migrate from `wagmi` version `8.x` to `9.x`
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump typescript from 4.9.3 to 4.9.4 ([#66](https://github.com/orhun/git-cliff/issues/66))
+- Bump @types/node from 18.11.11 to 18.11.12 ([#68](https://github.com/orhun/git-cliff/issues/68))
+- Bump @types/node from 18.11.12 to 18.11.13 ([#69](https://github.com/orhun/git-cliff/issues/69))
+- Bump wagmi from 0.8.10 to 0.9.2 ([#70](https://github.com/orhun/git-cliff/issues/70))
+
 ## [1.0.0-alpha.26] - 2022-12-06
 
 ### <!-- 02 -->Bug Fixes

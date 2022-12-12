@@ -1,5 +1,6 @@
 import Link from "next/link";
-import {Address, useEnsName, etherscanBlockExplorers} from "wagmi";
+import {Address, useEnsName} from "wagmi";
+import { mainnet } from 'wagmi/chains'
 
 export const EnsName = (props: { address: string }) => {
   const {data: ensName} = useEnsName({
@@ -11,7 +12,7 @@ export const EnsName = (props: { address: string }) => {
   return (
     <Link
       target="_blank"
-      href={`${etherscanBlockExplorers.mainnet.url}/address/${props.address}`}
+      href={`${mainnet.blockExplorers}/address/${props.address}`}
     >
       {addressOrEnsName}
     </Link>
