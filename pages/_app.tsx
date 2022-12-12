@@ -6,14 +6,12 @@ import {configureChains, createClient, WagmiConfig} from "wagmi";
 import {publicProvider} from 'wagmi/providers/public'
 import {alchemyProvider} from 'wagmi/providers/alchemy'
 import {infuraProvider} from 'wagmi/providers/infura'
-import {goerli, mainnet} from 'wagmi/chains'
-
-const defaultChains = [mainnet, goerli]
+import {mainnet} from 'wagmi/chains'
 
 const alchemyApiKey = process.env.NEXT_PUBLIC_ALCHEMY_API_KEY as string;
 const infuraApiKey = process.env.NEXT_PUBLIC_INFURA_API_KEY as string;
 
-const {provider, webSocketProvider} = configureChains(defaultChains, [
+const {provider, webSocketProvider} = configureChains([mainnet], [
   alchemyProvider({
     apiKey: alchemyApiKey,
     priority: 0,

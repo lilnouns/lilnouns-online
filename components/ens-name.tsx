@@ -12,7 +12,7 @@ export const EnsName = (props: { address: string }) => {
   return (
     <Link
       target="_blank"
-      href={`${mainnet.blockExplorers}/address/${props.address}`}
+      href={`${mainnet.blockExplorers?.default.url}/address/${props.address}`}
     >
       {addressOrEnsName}
     </Link>
