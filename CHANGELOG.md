@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] - 2022-12-12
+
+### <!-- 02 -->Bug Fixes
+
+- Solve some issues relate to recent migration
+
 ## [1.0.0-alpha.27] - 2022-12-12
 
 ### <!-- 02 -->Bug Fixes
