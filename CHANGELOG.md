@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2022-12-17
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.1.0 to 3.2.0 ([#71](https://github.com/orhun/git-cliff/issues/71))
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.11.13 to 18.11.14 ([#72](https://github.com/orhun/git-cliff/issues/72))
+- Bump @types/node from 18.11.14 to 18.11.15 ([#73](https://github.com/orhun/git-cliff/issues/73))
+- Bump next from 13.0.6 to 13.0.7 ([#74](https://github.com/orhun/git-cliff/issues/74))
+- Bump eslint-config-next from 13.0.6 to 13.0.7 ([#75](https://github.com/orhun/git-cliff/issues/75))
+
 ## [1.0.0] - 2022-12-12
 
 ### <!-- 02 -->Bug Fixes
