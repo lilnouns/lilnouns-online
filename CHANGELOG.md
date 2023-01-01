@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2023-01-01
+
+### <!-- 05 -->Documentation
+
+- Add some status badges to the readme
+- Replace `yarn` by `pnpm` on project readme
+
+### <!-- 07 -->Continuous Integrations
+
+- Skip running `pnpm` workflow on ci dependencies
+- Bump actions/cache from 3.0.11 to 3.2.0 ([#78](https://github.com/orhun/git-cliff/issues/78))
+- Setup stale bot to closes abandoned issues
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint from 8.29.0 to 8.30.0 ([#77](https://github.com/orhun/git-cliff/issues/77))
+- Bump @types/node from 18.11.15 to 18.11.17 ([#76](https://github.com/orhun/git-cliff/issues/76))
+- Specifiy node version of cloudflare pages
+
 ## [1.0.1] - 2022-12-17
 
 ### <!-- 07 -->Continuous Integrations
