@@ -10,7 +10,7 @@ jobs:
   update-lockfile:
     runs-on: ubuntu-latest
 
-    if: ${{ github.actor == 'dependabot[bot]' }}
+    if: ${{ github.actor == 'dependabot[bot]' && contains( github.head_ref, 'npm_and_yarn' ) }}
 
     permissions:
       pull-requests: write
@@ -39,7 +39,7 @@ jobs:
         run: |
           echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
 
-      - uses: actions/cache@v3.0.11
+      - uses: actions/cache@v3.2.0
         name: Setup pnpm cache
         with:
           path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
@@ -48,7 +48,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Checkout
-        uses: actions/checkout@v3.2.0
+        uses: actions/checkout@v3.1.0
         with:
           ref: ${{ github.event.pull_request.head.ref }}
 
