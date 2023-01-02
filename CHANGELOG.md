@@ -2,7 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2023-01-02
+
+### <!-- 07 -->Continuous Integrations
+
+- Add frozen lockfile flag for `pnpm` over `build`
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add a link to the github repository to the header
+- Remove `strict-peer-dependencies` from `.npmrc`
+
 ## [1.0.3] - 2023-01-02
+
+### <!-- 05 -->Documentation
+
+- Change project license to `APLv2`
 
 ### <!-- 07 -->Continuous Integrations
 
