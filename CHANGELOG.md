@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] - 2023-01-02
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.2.0 to 3.2.2
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next from 13.0.7 to 13.1.1
+- Bump eslint-config-next from 13.0.7 to 13.1.1
+- Bump @types/react-dom from 18.0.9 to 18.0.10
+- Update `pnpm` lockfile state
+- Bump @types/node from 18.11.17 to 18.11.18
+- Bump wagmi from 0.9.6 to 0.10.2
+- Bump eslint from 8.30.0 to 8.31.0
+- Update `pnpm` lockfile state
+
 ## [1.0.2] - 2023-01-01
 
 ### <!-- 05 -->Documentation
