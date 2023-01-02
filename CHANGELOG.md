@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] - 2023-01-02
+
+### <!-- 07 -->Continuous Integrations
+
+- Add a new `release` workflow to create releases
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update dependencies through `pnpm`
+- Overrides `json5` version `<2.2.2` by `>=2.2.2`
+
 ## [1.0.4] - 2023-01-02
 
 ### <!-- 07 -->Continuous Integrations
