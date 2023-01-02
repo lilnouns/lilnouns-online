@@ -55,27 +55,27 @@ All notable changes to this project will be documented in this file.
 ### <!-- 07 -->Continuous Integrations
 
 - Skip running `pnpm` workflow on ci dependencies
-- Bump actions/cache from 3.0.11 to 3.2.0 ([#78](https://github.com/orhun/git-cliff/issues/78))
+- Bump actions/cache from 3.0.11 to 3.2.0 
 - Setup stale bot to closes abandoned issues
 
 ### <!-- 08 -->Miscellaneous Tasks
 
-- Bump eslint from 8.29.0 to 8.30.0 ([#77](https://github.com/orhun/git-cliff/issues/77))
-- Bump @types/node from 18.11.15 to 18.11.17 ([#76](https://github.com/orhun/git-cliff/issues/76))
+- Bump eslint from 8.29.0 to 8.30.0 
+- Bump @types/node from 18.11.15 to 18.11.17 
 - Specifiy node version of cloudflare pages
 
 ## [1.0.1] - 2022-12-17
 
 ### <!-- 07 -->Continuous Integrations
 
-- Bump actions/checkout from 3.1.0 to 3.2.0 ([#71](https://github.com/orhun/git-cliff/issues/71))
+- Bump actions/checkout from 3.1.0 to 3.2.0 
 
 ### <!-- 08 -->Miscellaneous Tasks
 
-- Bump @types/node from 18.11.13 to 18.11.14 ([#72](https://github.com/orhun/git-cliff/issues/72))
-- Bump @types/node from 18.11.14 to 18.11.15 ([#73](https://github.com/orhun/git-cliff/issues/73))
-- Bump next from 13.0.6 to 13.0.7 ([#74](https://github.com/orhun/git-cliff/issues/74))
-- Bump eslint-config-next from 13.0.6 to 13.0.7 ([#75](https://github.com/orhun/git-cliff/issues/75))
+- Bump @types/node from 18.11.13 to 18.11.14 
+- Bump @types/node from 18.11.14 to 18.11.15 
+- Bump next from 13.0.6 to 13.0.7 
+- Bump eslint-config-next from 13.0.6 to 13.0.7 
 
 ## [1.0.0] - 2022-12-12
 
@@ -91,10 +91,10 @@ All notable changes to this project will be documented in this file.
 
 ### <!-- 08 -->Miscellaneous Tasks
 
-- Bump typescript from 4.9.3 to 4.9.4 ([#66](https://github.com/orhun/git-cliff/issues/66))
-- Bump @types/node from 18.11.11 to 18.11.12 ([#68](https://github.com/orhun/git-cliff/issues/68))
-- Bump @types/node from 18.11.12 to 18.11.13 ([#69](https://github.com/orhun/git-cliff/issues/69))
-- Bump wagmi from 0.8.10 to 0.9.2 ([#70](https://github.com/orhun/git-cliff/issues/70))
+- Bump typescript from 4.9.3 to 4.9.4 
+- Bump @types/node from 18.11.11 to 18.11.12 
+- Bump @types/node from 18.11.12 to 18.11.13 
+- Bump wagmi from 0.8.10 to 0.9.2 
 
 ## [1.0.0-alpha.26] - 2022-12-06
 
@@ -109,23 +109,23 @@ All notable changes to this project will be documented in this file.
 
 ### <!-- 08 -->Miscellaneous Tasks
 
-- Bump @types/node from 18.11.8 to 18.11.9 ([#47](https://github.com/orhun/git-cliff/issues/47))
-- Bump next from 13.0.1 to 13.0.2 ([#48](https://github.com/orhun/git-cliff/issues/48))
-- Bump eslint-config-next from 13.0.1 to 13.0.2 ([#49](https://github.com/orhun/git-cliff/issues/49))
-- Bump @types/react from 18.0.24 to 18.0.25 ([#50](https://github.com/orhun/git-cliff/issues/50))
-- Bump eslint from 8.26.0 to 8.27.0 ([#51](https://github.com/orhun/git-cliff/issues/51))
-- Bump wagmi from 0.7.15 to 0.8.1 ([#52](https://github.com/orhun/git-cliff/issues/52))
-- Bump next from 13.0.2 to 13.0.3 ([#53](https://github.com/orhun/git-cliff/issues/53))
-- Bump typescript from 4.8.4 to 4.9.3 ([#56](https://github.com/orhun/git-cliff/issues/56))
-- Bump @types/react-dom from 18.0.8 to 18.0.9 ([#55](https://github.com/orhun/git-cliff/issues/55))
-- Bump eslint-config-next from 13.0.2 to 13.0.3 ([#54](https://github.com/orhun/git-cliff/issues/54))
-- Bump next from 13.0.3 to 13.0.4 ([#57](https://github.com/orhun/git-cliff/issues/57))
-- Bump @cloudflare/workers-types from 3.18.0 to 4.20221111.1 ([#58](https://github.com/orhun/git-cliff/issues/58))
-- Bump @types/node from 18.11.9 to 18.11.11 ([#61](https://github.com/orhun/git-cliff/issues/61))
-- Bump eslint from 8.27.0 to 8.29.0 ([#63](https://github.com/orhun/git-cliff/issues/63))
-- Bump @types/react from 18.0.25 to 18.0.26 ([#62](https://github.com/orhun/git-cliff/issues/62))
-- Bump next from 13.0.3 to 13.0.6 ([#64](https://github.com/orhun/git-cliff/issues/64))
-- Bump eslint-config-next from 13.0.3 to 13.0.6 ([#65](https://github.com/orhun/git-cliff/issues/65))
+- Bump @types/node from 18.11.8 to 18.11.9 
+- Bump next from 13.0.1 to 13.0.2 
+- Bump eslint-config-next from 13.0.1 to 13.0.2 
+- Bump @types/react from 18.0.24 to 18.0.25 
+- Bump eslint from 8.26.0 to 8.27.0 
+- Bump wagmi from 0.7.15 to 0.8.1 
+- Bump next from 13.0.2 to 13.0.3 
+- Bump typescript from 4.8.4 to 4.9.3 
+- Bump @types/react-dom from 18.0.8 to 18.0.9 
+- Bump eslint-config-next from 13.0.2 to 13.0.3 
+- Bump next from 13.0.3 to 13.0.4 
+- Bump @cloudflare/workers-types from 3.18.0 to 4.20221111.1 
+- Bump @types/node from 18.11.9 to 18.11.11 
+- Bump eslint from 8.27.0 to 8.29.0 
+- Bump @types/react from 18.0.25 to 18.0.26 
+- Bump next from 13.0.3 to 13.0.6 
+- Bump eslint-config-next from 13.0.3 to 13.0.6 
 
 ## [1.0.0-alpha.25] - 2022-11-01
 
