@@ -7,13 +7,13 @@ export const EnsAvatar = (props: { address: string }) => {
   })
 
   // eslint-disable-next-line @next/next/no-img-element
-  let placeholderOrEnsAvatar = <img className="h-6 w-6 rounded-full border" src={`${ensAvatar}`} alt=""/>;
+  let placeholderOrEnsAvatar = <img className="tw-h-6 tw-w-6 tw-rounded-full tw-border" src={`${ensAvatar}`} alt=""/>;
   if (!ensAvatar) {
     placeholderOrEnsAvatar = <Blockies
       seed={props.address?.toLowerCase() || ''}
       size={10}
       scale={2}
-      className={'h-6 w-6 rounded-full'}
+      className={'tw-h-6 tw-w-6 tw-rounded-full'}
     />;
   }
 
