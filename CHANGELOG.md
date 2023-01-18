@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2023-01-18
+
+### <!-- 01 -->Features
+
+- Add `tailwind` class names obfuscation by `webpack`
+
+### <!-- 04 -->Refactor
+
+- Add missing `tw-` prefix for css classes
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.1.0 to 3.3.0 
+- Bump actions/setup-node from 3.5.1 to 3.6.0
+- Bump orhun/git-cliff-action from 2.0.1 to 2.0.3
+- Bump actions/cache from 3.2.2 to 3.2.3
+- Change `open-pull-requests-limit` from 10 to 20
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next from 13.1.1 to 13.1.2
+- Update the `pnpm` lock file
+- Bump eslint-config-next from 13.1.1 to 13.1.2
+- Update the `pnpm` lock file
+- Bump eslint from 8.31.0 to 8.32.0
+- Update the `pnpm` lock file
+- Add `mangle-css-class-webpack-plugin` to dependencies
+- Add `clsx` to dependencies
+
 ## [1.0.7] - 2023-01-03
 
 ### <!-- 07 -->Continuous Integrations
