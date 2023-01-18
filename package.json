@@ -19,6 +19,8 @@
     "autoprefixer": "^10.4.13",
     "dayjs": "^1.11.7",
     "ethers": "^5.7.2",
+    "incstr": "^1.2.3",
+    "mangle-css-class-webpack-plugin": "^5.0.9",
     "moment": "^2.29.4",
     "next": "13.1.2",
     "next-seo": "^5.15.0",
