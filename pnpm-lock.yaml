@@ -12,6 +12,7 @@ specifiers:
   '@types/react-blockies': ^1.4.1
   '@types/react-dom': 18.0.10
   autoprefixer: ^10.4.13
+  clsx: ^1.2.1
   dayjs: ^1.11.7
   eslint: 8.32.0
   eslint-config-next: 13.1.2
@@ -36,6 +37,7 @@ dependencies:
   '@heroicons/react': 2.0.13_react@18.2.0
   '@types/react-blockies': 1.4.1
   autoprefixer: 10.4.13_postcss@8.4.20
+  clsx: 1.2.1
   dayjs: 1.11.7
   ethers: 5.7.2
   incstr: 1.2.3

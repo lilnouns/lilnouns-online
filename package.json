@@ -17,6 +17,7 @@
     "@heroicons/react": "^2.0.13",
     "@types/react-blockies": "^1.4.1",
     "autoprefixer": "^10.4.13",
+    "clsx": "^1.2.1",
     "dayjs": "^1.11.7",
     "ethers": "^5.7.2",
     "incstr": "^1.2.3",
