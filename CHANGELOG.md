@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 2023-01-22
+
+### <!-- 05 -->Documentation
+
+- Add issue templates for bug report and feature requests
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.0.26 to 18.0.27
+- Bump next from 13.1.2 to 13.1.3
+- Bump eslint-config-next from 13.1.2 to 13.1.3
+
 ## [1.1.0] - 2023-01-18
 
 ### <!-- 01 -->Features
