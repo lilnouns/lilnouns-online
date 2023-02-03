@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.3] - 2023-02-03
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.2.3 to 3.2.4 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint-config-next from 13.1.3 to 13.1.4 
+- Bump next from 13.1.3 to 13.1.4 
+- Bump eslint from 8.32.0 to 8.33.0 
+- Bump ethers from 5.7.2 to 6.0.0 
+- Bump typescript from 4.9.4 to 4.9.5 
+- Bump next from 13.1.4 to 13.1.6 
+- Bump eslint-config-next from 13.1.4 to 13.1.6 
+- Bump wagmi from 0.10.15 to 0.11.3 
+
 ## [1.1.2] - 2023-01-23
 
 ### <!-- 05 -->Documentation
