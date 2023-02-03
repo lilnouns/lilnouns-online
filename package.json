@@ -19,7 +19,7 @@
     "autoprefixer": "^10.4.13",
     "clsx": "^1.2.1",
     "dayjs": "^1.11.7",
-    "ethers": "^5.7.2",
+    "ethers": "^6.0.0",
     "incstr": "^1.2.3",
     "mangle-css-class-webpack-plugin": "^5.0.9",
     "moment": "^2.29.4",
