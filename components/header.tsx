@@ -39,7 +39,7 @@ export default function Header() {
             ))}
           </div>
           {/*<div className="tw-hidden md:tw-absolute md:tw-flex md:tw-items-center md:tw-justify-end md:tw-inset-y-0 md:tw-right-0">
-                <span className="tw-inline-flex rounded-md shadow">
+                <span className="tw-inline-flex tw-rounded-md tw-shadow">
                   <a
                     href="#"
                     className="tw-tw-tw-inline-flex tw-items-center tw-px-4 tw-py-2 tw-border tw-border-transparent tw-text-base tw-font-medium tw-rounded-md tw-text-neutral-600 tw-bg-white hover:tw-bg-gray-50"
@@ -53,18 +53,18 @@ export default function Header() {
 
       <Transition
         as={Fragment}
-        enter="duration-150 ease-out"
-        enterFrom="opacity-0 scale-95"
-        enterTo="opacity-100 scale-100"
-        leave="duration-100 ease-in"
-        leaveFrom="opacity-100 scale-100"
-        leaveTo="opacity-0 scale-95"
+        enter="tw-duration-150 tw-ease-out"
+        enterFrom="tw-opacity-0 tw-scale-95"
+        enterTo="tw-opacity-100 tw-scale-100"
+        leave="tw-duration-100 tw-ease-in"
+        leaveFrom="tw-opacity-100 tw-scale-100"
+        leaveTo="tw-opacity-0 tw-scale-95"
       >
         <Popover.Panel
           focus
           className="tw-absolute tw-z-10 tw-top-0 tw-inset-x-0 tw-p-2 tw-transition tw-transform tw-origin-top-right md:tw-hidden"
         >
-          <div className="tw-rounded-lg tw-shadow-md tw-bg-white ring-1 tw-ring-black tw-ring-opacity-5 tw-overflow-hidden">
+          <div className="tw-rounded-lg tw-shadow-md tw-bg-white tw-ring-1 tw-ring-black tw-ring-opacity-5 tw-overflow-hidden">
             <div className="tw-px-5 tw-pt-4 tw-flex tw-items-center tw-justify-between">
               {/*<div>
                     <img
@@ -74,18 +74,18 @@ export default function Header() {
                     />
                   </div>*/}
               <div className="-tw-mr-2">
-                <Popover.Button className="tw-bg-white tw-rounded-md tw-p-2 tw-inline-flex tw-items-center tw-justify-center tw-text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-neutral-500">
-                  <span className="sr-only">Close menu</span>
-                  <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                <Popover.Button className="tw-bg-white tw-rounded-md tw-p-2 tw-inline-flex tw-items-center tw-justify-center tw-text-gray-400 hover:tw-text-gray-500 hover:tw-bg-gray-100 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-inset focus:ring-neutral-500">
+                  <span className="tw-sr-only">Close menu</span>
+                  <XMarkIcon className="tw-h-6 tw-w-6" aria-hidden="true" />
                 </Popover.Button>
               </div>
             </div>
-            <div className="px-2 pt-2 pb-3">
+            <div className="tw-px-2 tw-pt-2 tw-pb-3">
               {navigation.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:tw-text-gray-900 hover:tw-bg-gray-50"
+                  className="tw-block tw-px-3 tw-py-2 tw-rounded-md tw-text-base tw-font-medium tw-text-gray-700 hover:tw-text-gray-900 hover:tw-bg-gray-50"
                 >
                   {item.name}
                 </a>
