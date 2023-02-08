@@ -7,6 +7,7 @@ specifiers:
   '@cloudflare/workers-types': ^4.20221111.1
   '@headlessui/react': ^1.7.7
   '@heroicons/react': ^2.0.13
+  '@next/font': ^13.1.6
   '@types/node': 18.11.19
   '@types/react': 18.0.27
   '@types/react-blockies': ^1.4.1
@@ -35,6 +36,7 @@ specifiers:
 dependencies:
   '@headlessui/react': 1.7.7_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.0.13_react@18.2.0
+  '@next/font': 13.1.6
   '@types/react-blockies': 1.4.1
   autoprefixer: 10.4.13_postcss@8.4.20
   clsx: 1.2.1
@@ -1096,6 +1098,10 @@ packages:
     dependencies:
       glob: 7.1.7
     dev: true
+
+  /@next/font/13.1.6:
+    resolution: {integrity: sha512-AITjmeb1RgX1HKMCiA39ztx2mxeAyxl4ljv2UoSBUGAbFFMg8MO7YAvjHCgFhD39hL7YTbFjol04e/BPBH5RzQ==}
+    dev: false
 
   /@next/swc-android-arm-eabi/13.1.6:
     resolution: {integrity: sha512-F3/6Z8LH/pGlPzR1AcjPFxx35mPqjE5xZcf+IL+KgbW9tMkp7CYi1y7qKrEWU7W4AumxX/8OINnDQWLiwLasLQ==}
