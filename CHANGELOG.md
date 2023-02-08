@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.5] - 2023-02-08
+
+### <!-- 02 -->Bug Fixes
+
+- Add missing prefixes for `tailwind` classes
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 2.0.3 to 2.0.5 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.11.18 to 18.11.19 
+- Disable mangling class names logs on production
+- Improve `classNameRegExp` for `tailwind` class names
+- Add `@next/font` to dependencies
+
 ## [1.1.4] - 2023-02-03
 
 ### <!-- 02 -->Bug Fixes
