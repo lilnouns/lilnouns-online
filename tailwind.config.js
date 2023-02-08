@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const { fontFamily } = require('tailwindcss/defaultTheme');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -11,8 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'londrina-solid': ['"Londrina Solid"', 'cursive'],
-        'sans': ['"Londrina Solid"', ...defaultTheme.fontFamily.sans],
+        sans: ['var(--font-londrina-solid)', ...fontFamily.sans],
       },
     },
   },
