@@ -2,6 +2,14 @@ import type {NextPage} from "next";
 import Head from "next/head";
 import Header from "../components/header";
 import Content from "../components/content";
+import {Londrina_Solid} from '@next/font/google';
+import clsx from "clsx";
+
+const londrinaSolid = Londrina_Solid({
+  subsets: ['latin'],
+  variable: '--font-londrina-solid',
+  weight: ['100', '300', '400', '900']
+})
 
 const Home: NextPage = () => {
   return (
@@ -12,7 +20,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
 
-      <div className="tw-relative tw-bg-gray-50 tw-overflow-hidden">
+      <main className={clsx(londrinaSolid.variable, "tw-relative tw-bg-gray-50 tw-overflow-hidden tw-font-sans")}>
         <div className="tw-hidden sm:tw-block sm:tw-absolute sm:tw-inset-y-0 sm:tw-h-full sm:tw-w-full" aria-hidden="true">
           <div className="tw-relative tw-h-full tw-max-w-7xl tw-mx-auto">
             <svg
@@ -67,7 +75,7 @@ const Home: NextPage = () => {
 
           {/*<Footer />*/}
         </div>
-      </div>
+      </main>
     </>
   );
 };
