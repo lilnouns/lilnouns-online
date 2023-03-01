@@ -24,7 +24,7 @@
     "incstr": "^1.2.3",
     "mangle-css-class-webpack-plugin": "^5.0.9",
     "moment": "^2.29.4",
-    "next": "13.2.1",
+    "next": "13.2.2",
     "next-seo": "^5.15.0",
     "next-sitemap": "^3.1.43",
     "postcss": "^8.4.20",
