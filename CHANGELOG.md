@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.6] - 2023-03-02
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.2.4 to 3.2.6 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.0.27 to 18.0.28 
+- Bump eslint from 8.33.0 to 8.34.0 
+- Bump next from 13.1.6 to 13.2.1 
+- Bump @types/react-dom from 18.0.10 to 18.0.11 
+- Bump next from 13.2.1 to 13.2.2 
+- Bump eslint from 8.34.0 to 8.35.0 
+- Bump @types/node from 18.11.19 to 18.14.3 
+- Bump eslint-config-next from 13.1.6 to 13.2.3 
+- Bump next from 13.2.1 to 13.2.3 
+
 ## [1.1.5] - 2023-02-08
 
 ### <!-- 02 -->Bug Fixes
