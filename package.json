@@ -1,6 +1,6 @@
 {
   "name": "lilnouns-online",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,36 +13,36 @@
     "export": "next export"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.7",
-    "@heroicons/react": "^2.0.13",
-    "@next/font": "^13.1.6",
-    "@types/react-blockies": "^1.4.1",
-    "autoprefixer": "^10.4.13",
-    "clsx": "^1.2.1",
-    "dayjs": "^1.11.7",
-    "ethers": "^5.7.2",
-    "incstr": "^1.2.3",
-    "mangle-css-class-webpack-plugin": "^5.0.9",
-    "moment": "^2.29.4",
-    "next": "13.2.3",
-    "next-seo": "^5.15.0",
-    "next-sitemap": "^3.1.43",
-    "postcss": "^8.4.20",
+    "@headlessui/react": "1.7.7",
+    "@heroicons/react": "2.0.13",
+    "@types/react-blockies": "1.4.1",
+    "autoprefixer": "10.4.13",
+    "clsx": "1.2.1",
+    "dayjs": "1.11.7",
+    "ethers": "5.7.2",
+    "incstr": "1.2.3",
+    "mangle-css-class-webpack-plugin": "5.0.9",
+    "moment": "2.29.4",
+    "next": "13.2.4",
+    "next-seo": "5.15.0",
+    "next-sitemap": "4.0.1",
+    "postcss": "8.4.20",
     "react": "18.2.0",
-    "react-blockies": "^1.4.1",
+    "react-blockies": "1.4.1",
     "react-dom": "18.2.0",
-    "tailwindcss": "^3.2.4",
-    "wagmi": "^0.11.3"
+    "tailwindcss": "3.2.4",
+    "wagmi": "0.11.3"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20221111.1",
-    "@types/node": "18.14.3",
+    "@cloudflare/workers-types": "4.20221111.1",
+    "@types/node": "18.15.10",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
-    "eslint": "8.35.0",
-    "eslint-config-next": "13.2.3",
-    "typescript": "4.9.5",
-    "wrangler": "^2.6.2"
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "pnpm": "8.0.0",
+    "typescript": "5.0.2",
+    "wrangler": "2.6.2"
   },
   "pnpm": {
     "overrides": {

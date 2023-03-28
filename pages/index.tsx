@@ -2,7 +2,7 @@ import type {NextPage} from "next";
 import Head from "next/head";
 import Header from "../components/header";
 import Content from "../components/content";
-import {Londrina_Solid} from '@next/font/google';
+import {Londrina_Solid} from "next/font/google";
 import clsx from "clsx";
 
 const londrinaSolid = Londrina_Solid({
