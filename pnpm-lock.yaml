@@ -7,7 +7,6 @@ specifiers:
   '@cloudflare/workers-types': ^4.20221111.1
   '@headlessui/react': ^1.7.7
   '@heroicons/react': ^2.0.13
-  '@next/font': ^13.1.6
   '@types/node': 18.15.10
   '@types/react': 18.0.28
   '@types/react-blockies': ^1.4.1
@@ -24,6 +23,7 @@ specifiers:
   next: 13.2.4
   next-seo: ^5.15.0
   next-sitemap: ^4.0.1
+  pnpm: ^8.0.0
   postcss: ^8.4.20
   react: 18.2.0
   react-blockies: ^1.4.1
@@ -36,7 +36,6 @@ specifiers:
 dependencies:
   '@headlessui/react': 1.7.12_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.0.16_react@18.2.0
-  '@next/font': 13.2.1
   '@types/react-blockies': 1.4.1
   autoprefixer: 10.4.13_postcss@8.4.21
   clsx: 1.2.1
@@ -62,6 +61,7 @@ devDependencies:
   '@types/react-dom': 18.0.11
   eslint: 8.36.0
   eslint-config-next: 13.2.4_j4766f7ecgqbon3u7zlxn5zszu
+  pnpm: 8.0.0
   typescript: 5.0.2
   wrangler: 2.11.1
 
@@ -1309,10 +1309,6 @@ packages:
     dependencies:
       glob: 7.1.7
     dev: true
-
-  /@next/font/13.2.1:
-    resolution: {integrity: sha512-4sergLt7xp9+mZuKME/xM4tLlHGTcmL7naCq0qCTcAlof6NnttshYgiLOdhSiy0NcI+/yM3BjvdEk++O96UzTg==}
-    dev: false
 
   /@next/swc-android-arm-eabi/13.2.4:
     resolution: {integrity: sha512-DWlalTSkLjDU11MY11jg17O1gGQzpRccM9Oes2yTqj2DpHndajrXHGxj9HGtJ+idq2k7ImUdJVWS2h2l/EDJOw==}
@@ -5215,6 +5211,12 @@ packages:
     resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
     engines: {node: '>=10.13.0'}
     dev: false
+
+  /pnpm/8.0.0:
+    resolution: {integrity: sha512-Crsvd8LKb+SoEB/bQxRZrtSt5Ri8g9jmPg6MKyexMTI1pdLd44gPwVV6cZLq2jYYPv5q+gADPkYTbYr8SeFCeA==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: true
 
   /postcss-import/14.1.0_postcss@8.4.21:
     resolution: {integrity: sha512-flwI+Vgm4SElObFVPpTIT7SU7R3qk2L7PyduMcokiaVKuWv9d/U+Gm/QAd8NDLuykTWTkcrjOeD2Pp1rMeBTGw==}
