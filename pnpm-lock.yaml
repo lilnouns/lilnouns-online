@@ -9,7 +9,7 @@ specifiers:
   '@heroicons/react': ^2.0.13
   '@next/font': ^13.1.6
   '@types/node': 18.14.5
-  '@types/react': 18.0.28
+  '@types/react': 18.0.30
   '@types/react-blockies': ^1.4.1
   '@types/react-dom': 18.0.11
   autoprefixer: ^10.4.13
@@ -58,7 +58,7 @@ dependencies:
 devDependencies:
   '@cloudflare/workers-types': 4.20230221.0
   '@types/node': 18.14.5
-  '@types/react': 18.0.28
+  '@types/react': 18.0.30
   '@types/react-dom': 18.0.11
   eslint: 8.36.0
   eslint-config-next: 13.2.4_vgl77cfdswitgr47lm5swmv43m
@@ -1765,17 +1765,17 @@ packages:
   /@types/react-blockies/1.4.1:
     resolution: {integrity: sha512-aDX0g0hwzdodkGLSDNUQr6gXxwclGjnhS8jhsR8uQhAfe/7i3GZD/NDcSlQ2SiQiLhfRxX3NlY+nvBwf5Y0tTg==}
     dependencies:
-      '@types/react': 18.0.28
+      '@types/react': 18.0.30
     dev: false
 
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
-      '@types/react': 18.0.28
+      '@types/react': 18.0.30
     dev: true
 
-  /@types/react/18.0.28:
-    resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
+  /@types/react/18.0.30:
+    resolution: {integrity: sha512-AnME2cHDH11Pxt/yYX6r0w448BfTwQOLEhQEjCdwB7QskEI7EKtxhGUsExTQe/MsY3D9D5rMtu62WRocw9A8FA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
