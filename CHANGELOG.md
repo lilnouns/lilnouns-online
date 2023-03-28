@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.7] - 2023-03-28
+
+### <!-- 04 -->Refactor
+
+- Migrate from `@next/font` to `next/font`
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.2.6 to 3.3.1 
+- Bump actions/checkout from 3.3.0 to 3.5.0 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next-sitemap from 3.1.55 to 4.0.1 
+- Bump @types/node from 18.14.3 to 18.14.5 
+- Bump eslint-config-next from 13.2.3 to 13.2.4 
+- Bump next from 13.2.3 to 13.2.4 
+- Bump eslint from 8.35.0 to 8.36.0 
+- Bump typescript from 4.9.5 to 5.0.2 
+- Bump @types/node from 18.14.3 to 18.15.10 
+- Install `pnpm` as dev-dependency
+- Replace exact versions instead of carrot
+
 ## [1.1.6] - 2023-03-02
 
 ### <!-- 07 -->Continuous Integrations
