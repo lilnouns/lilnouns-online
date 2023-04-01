@@ -4,7 +4,7 @@ overrides:
   json5@<2.2.2: '>=2.2.2'
 
 specifiers:
-  '@cloudflare/workers-types': 4.20221111.1
+  '@cloudflare/workers-types': 4.20230321.0
   '@headlessui/react': 1.7.7
   '@heroicons/react': 2.0.13
   '@types/node': 18.15.11
@@ -55,7 +55,7 @@ dependencies:
   wagmi: 0.11.3_74lpjautjwlti3ii7kth7t3pai
 
 devDependencies:
-  '@cloudflare/workers-types': 4.20221111.1
+  '@cloudflare/workers-types': 4.20230321.0
   '@types/node': 18.15.11
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -320,8 +320,8 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@cloudflare/workers-types/4.20221111.1:
-    resolution: {integrity: sha512-BNV2wN8V6Zduvo7UzxcdjBbLQ906D2KhS804PDufLgx/sanGJCHVJMOIaLvS/b61JKtot1U7P/l1fjrjZ7/E3A==}
+  /@cloudflare/workers-types/4.20230321.0:
+    resolution: {integrity: sha512-zyRFz9AUS0tbg3/kJ+3zxvp9fl/O9yOJlChih/o86hhOqRMcZVbWefYAvFPidRvYUHM5YTG1wjU1bF9FFckRVg==}
     dev: true
 
   /@coinbase/wallet-sdk/3.6.4_@babel+core@7.21.0:
