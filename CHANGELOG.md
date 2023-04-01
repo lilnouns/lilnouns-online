@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.8] - 2023-04-01
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.15.10 to 18.15.11 
+- Bump eslint from 8.36.0 to 8.37.0 
+- Bump autoprefixer from 10.4.13 to 10.4.14 
+- Bump postcss from 8.4.20 to 8.4.21 
+- Bump @cloudflare/workers-types from 4.20221111.1 to 4.20230321.0 
+- Bump wrangler from 2.6.2 to 2.13.0 
+- Bump @heroicons/react from 2.0.13 to 2.0.17 
+- Bump wagmi from 0.11.3 to 0.12.8 
+- Bump @types/react from 18.0.28 to 18.0.31 
+
 ## [1.1.7] - 2023-03-28
 
 ### <!-- 04 -->Refactor
