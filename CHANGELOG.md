@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.9] - 2023-04-03
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump tailwindcss from 3.2.4 to 3.3.1 
+- Bump @types/react from 18.0.31 to 18.0.32 
+- Bump @headlessui/react from 1.7.7 to 1.7.13 
+- Bump next-seo from 5.15.0 to 6.0.0 
+- Bump pnpm from 8.0.0 to 8.1.0 
+- Bump typescript from 5.0.2 to 5.0.3 
+
 ## [1.1.8] - 2023-04-01
 
 ### <!-- 08 -->Miscellaneous Tasks
