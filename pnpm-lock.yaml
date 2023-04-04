@@ -23,7 +23,7 @@ specifiers:
   next: 13.2.4
   next-seo: 6.0.0
   next-sitemap: 4.0.1
-  pnpm: 8.1.0
+  pnpm: 8.1.1
   postcss: 8.4.21
   react: 18.2.0
   react-blockies: 1.4.1
@@ -61,7 +61,7 @@ devDependencies:
   '@types/react-dom': 18.0.11
   eslint: 8.37.0
   eslint-config-next: 13.2.4_vwh6htx42aidho2qgfca5u5rwm
-  pnpm: 8.1.0
+  pnpm: 8.1.1
   typescript: 5.0.3
   wrangler: 2.13.0
 
@@ -5104,8 +5104,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /pnpm/8.1.0:
-    resolution: {integrity: sha512-e2H73wTRxmc5fWF/6QJqbuwU6O3NRVZC1G1WFXG8EqfN/+ZBu8XVHJZwPH6Xh0DxbEoZgw8/wy2utgCDwPu4Sg==}
+  /pnpm/8.1.1:
+    resolution: {integrity: sha512-XLzcc4O8YrqfQ1+qjPtHGDFcdUeno2Zk+kuuSc9CagIiY8y4uhnqQ2B7jW8tgwQDNmehewGZuqrAoskgCkbTnw==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
