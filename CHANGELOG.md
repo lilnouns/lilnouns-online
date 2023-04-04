@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.10] - 2023-04-04
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.0.32 to 18.0.33 
+- Bump pnpm from 8.1.0 to 8.1.1 
+- Bump wrangler from 2.13.0 to 2.14.0 
+- Bump wagmi from 0.12.8 to 0.12.9 
+
 ## [1.1.9] - 2023-04-03
 
 ### <!-- 08 -->Miscellaneous Tasks
