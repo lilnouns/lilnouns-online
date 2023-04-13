@@ -22,7 +22,7 @@ specifiers:
   moment: 2.29.4
   next: 13.3.0
   next-seo: 6.0.0
-  next-sitemap: 4.0.1
+  next-sitemap: 4.0.7
   pnpm: 8.1.1
   postcss: 8.4.21
   react: 18.2.0
@@ -46,7 +46,7 @@ dependencies:
   moment: 2.29.4
   next: 13.3.0_6m24vuloj5ihw4zc5lbsktc4fu
   next-seo: 6.0.0_yucv4tfv7v7nrkw2uguegj6e7e
-  next-sitemap: 4.0.1_fou55egned3gok3n65buiqvr4a
+  next-sitemap: 4.0.7_fou55egned3gok3n65buiqvr4a
   postcss: 8.4.21
   react: 18.2.0
   react-blockies: 1.4.1_react@18.2.0
@@ -4711,8 +4711,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /next-sitemap/4.0.1_fou55egned3gok3n65buiqvr4a:
-    resolution: {integrity: sha512-dY6vKE/uayNYSfhXA64U9NZYSJtFzK01oBouY+XqgQieksKBG9BWNmq8yGSJUermyux4wCnNa9gLHwSk38emhA==}
+  /next-sitemap/4.0.7_fou55egned3gok3n65buiqvr4a:
+    resolution: {integrity: sha512-S2g5IwJeO0+ecmFq981fb+Mw9YWmntOuN/qTCxclSkUibOJ8qKIOye0vn6NEJ1S4tKhbY+MTYKgJpNdFZYxLoA==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
