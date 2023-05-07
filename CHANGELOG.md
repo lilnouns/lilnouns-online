@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.13] - 2023-05-07
+
+### <!-- 07 -->Continuous Integrations
+
+- Add node version 20 on `build` workflow
+
 ## [1.1.12] - 2023-05-07
 
 ### <!-- 05 -->Documentation
