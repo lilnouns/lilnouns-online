@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.13] - 2023-05-07
+
+### <!-- 07 -->Continuous Integrations
+
+- Add node version 20 on `build` workflow
+
+## [1.1.12] - 2023-05-07
+
+### <!-- 05 -->Documentation
+
+- Migrate to new github issue templates
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump `pnpm` version from 7 to 8 on `pnpm` workflow
+- Change `open-pull-requests-limit` from 10 to 20
+- Cleanup and improve `pnpm` workflow configs
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.15.12 to 18.15.13 
+- Bump @types/node from 18.15.13 to 18.16.0 
+- Bump eslint-config-next from 13.3.0 to 13.3.1 
+- Bump @types/react from 18.0.37 to 18.0.38 
+- Bump next from 13.3.0 to 13.3.1 
+- Bump eslint from 8.38.0 to 8.39.0 
+- Bump wrangler from 2.16.0 to 2.17.0 
+
 ## [1.1.11] - 2023-04-20
 
 ### <!-- 07 -->Continuous Integrations
