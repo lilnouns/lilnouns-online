@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.17] - 2023-05-21
+
+### <!-- 07 -->Continuous Integrations
+
+- Solve some issues over workflow configs
+
+## [1.1.16] - 2023-05-21
+
+### <!-- 07 -->Continuous Integrations
+
+- Change pnpm version from ^7 to ^8 on build workflow
+
+## [1.1.15] - 2023-05-21
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next-sitemap from 4.0.9 to 4.1.3 
+- Drop support for node version 17 and earlier
+
 ## [1.1.14] - 2023-05-10
 
 ### <!-- 07 -->Continuous Integrations
