@@ -26,18 +26,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.5.2
 
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3.6.0
+        with:
+          node-version: ${{ matrix.node-version }}
+
       - uses: pnpm/action-setup@v2.2.4
         name: Install pnpm
         id: pnpm-install
         with:
           version: ^8
           run_install: false
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3.6.0
-        with:
-          cache: 'pnpm'
-          node-version: ${{ matrix.node-version }}
 
       - name: Get pnpm store directory
         id: pnpm-cache
