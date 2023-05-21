@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.17] - 2023-05-21
+
+### <!-- 07 -->Continuous Integrations
+
+- Solve some issues over workflow configs
+
+## [1.1.16] - 2023-05-21
+
+### <!-- 07 -->Continuous Integrations
+
+- Change pnpm version from ^7 to ^8 on build workflow
+
+## [1.1.15] - 2023-05-21
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next-sitemap from 4.0.9 to 4.1.3 
+- Drop support for node version 17 and earlier
+
+## [1.1.14] - 2023-05-10
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 2.0.5 to 2.0.6 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Reorganize scripts on package file
+- Bump wagmi from 0.12.12 to 0.12.13 
+- Bump @types/node from 18.16.0 to 18.16.1 
+- Bump tailwindcss from 3.3.1 to 3.3.2 
+- Bump @types/node from 18.16.1 to 20.1.0 
+- Bump next-sitemap from 4.0.7 to 4.0.8 
+- Bump next-sitemap from 4.0.7 to 4.0.9 
+- Bump @types/node from 20.1.0 to 20.1.1 
+- Bump @types/react-dom from 18.0.11 to 18.2.1 
+
 ## [1.1.13] - 2023-05-07
 
 ### <!-- 07 -->Continuous Integrations
