@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.18] - 2023-05-26
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.0.38 to 18.2.6 
+- Bump eslint-config-next from 13.3.1 to 13.4.3 
+- Bump @types/node from 20.1.1 to 20.2.1 
+- Bump @cloudflare/workers-types from 4.20230404.0 to 4.20230511.0 
+- Bump pnpm from 8.3.1 to 8.5.1 
+- Bump wrangler from 2.17.0 to 3.0.0 
+- Bump @types/react-dom from 18.2.1 to 18.2.4 
+- Bump eslint from 8.39.0 to 8.41.0 
+- Bump @types/node from 20.2.1 to 20.2.3 
+- Bump @cloudflare/workers-types from 4.20230511.0 to 4.20230518.0 
+- Bump @heroicons/react from 2.0.17 to 2.0.18 
+
 ## [1.1.17] - 2023-05-21
 
 ### <!-- 07 -->Continuous Integrations
