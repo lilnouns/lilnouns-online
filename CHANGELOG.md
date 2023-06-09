@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.19] - 2023-06-09
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 20.2.3 to 20.2.4 
+- Bump pnpm from 8.5.1 to 8.6.0 
+- Bump postcss from 8.4.23 to 8.4.24 
+- Bump next from 13.3.1 to 13.4.4 
+- Bump typescript from 5.0.4 to 5.1.3 
+- Bump @headlessui/react from 1.7.14 to 1.7.15 
+- Bump eslint from 8.41.0 to 8.42.0 
+- Bump dayjs from 1.11.7 to 1.11.8 
+- Bump pnpm from 8.6.0 to 8.6.1 
+
 ## [1.1.18] - 2023-05-26
 
 ### <!-- 08 -->Miscellaneous Tasks
