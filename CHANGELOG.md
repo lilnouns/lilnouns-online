@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.20] - 2023-06-10
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump wrangler from 3.0.0 to 3.1.0 
+- Pdate dependencies in package.json to latest versions
+
 ## [1.1.19] - 2023-06-09
 
 ### <!-- 08 -->Miscellaneous Tasks
