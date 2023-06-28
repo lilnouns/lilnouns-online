@@ -52,5 +52,11 @@
   "engines": {
     "node": ">=18.0.0",
     "pnpm": ">=8.0.0"
-  }
+  },
+  "funding": [
+    {
+      "type": "custom",
+      "url": "https://ud.me/nekofar.crypto"
+    }
+  ]
 }
