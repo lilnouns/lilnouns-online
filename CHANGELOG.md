@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.21] - 2023-06-29
+
+### <!-- 05 -->Documentation
+
+- Add funding to the packge configs
+- Add crypto donate badge to the project readme
+- Set sponsorships configuration for github
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.5.2 to 3.5.3 
+- Switch `package-ecosystem` from `npm` to `pnpm` for Dependabot
+- Change `package-ecosystem` back to `npm` on Dependabot configs
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.2.6 to 18.2.9 
+- Update `pnpm` lockfile state
+- Bump next from 13.4.4 to 13.4.7 
+
 ## [1.1.20] - 2023-06-10
 
 ### <!-- 08 -->Miscellaneous Tasks
