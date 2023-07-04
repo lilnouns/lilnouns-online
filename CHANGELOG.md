@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.22] - 2023-07-04
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 20.2.4 to 20.3.2 
+- Bump @types/react-dom from 18.2.4 to 18.2.6 
+- Bump eslint-config-next from 13.4.3 to 13.4.7 
+- Bump @types/react from 18.2.9 to 18.2.14 
+- Bump wrangler from 3.1.0 to 3.1.1 
+- Bump next-seo from 6.0.0 to 6.1.0 
+- Bump pnpm from 8.6.1 to 8.6.5 
+- Bump typescript from 5.1.3 to 5.1.6 
+- Bump next-sitemap from 4.1.3 to 4.1.8 
+- Bump dayjs from 1.11.8 to 1.11.9 
+
 ## [1.1.21] - 2023-06-29
 
 ### <!-- 05 -->Documentation
