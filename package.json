@@ -21,7 +21,7 @@
     "dayjs": "1.11.10",
     "ethers": "5.7.2",
     "incstr": "1.2.3",
-    "mangle-css-class-webpack-plugin": "5.0.9",
+    "mangle-css-class-webpack-plugin": "5.1.0",
     "moment": "2.29.4",
     "next": "13.5.3",
     "next-seo": "6.1.0",
