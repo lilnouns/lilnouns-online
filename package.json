@@ -13,7 +13,7 @@
     "export": "next export"
   },
   "dependencies": {
-    "@headlessui/react": "1.7.15",
+    "@headlessui/react": "1.7.17",
     "@heroicons/react": "2.0.18",
     "@types/react-blockies": "1.4.2",
     "autoprefixer": "10.4.16",
