@@ -34,7 +34,7 @@
     "wagmi": "0.12.13"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20231016.0",
+    "@cloudflare/workers-types": "4.20231025.0",
     "@types/node": "20.8.7",
     "@types/react": "18.2.31",
     "@types/react-dom": "18.2.14",
