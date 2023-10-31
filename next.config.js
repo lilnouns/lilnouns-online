@@ -13,6 +13,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',
   webpack: (config, {dev, isServer}) => {
 
     if (!dev) {

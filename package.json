@@ -5,12 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "npm run export",
     "prestart": "npm run build",
-    "start": "wrangler pages dev out",
+    "start": "NODE_ENV=production pnpm run wrangler",
     "lint": "next lint",
-    "preexport": "next-sitemap",
-    "export": "next export"
+    "wrangler": "wrangler pages dev out --compatibility-date=2023-10-19"
   },
   "dependencies": {
     "@headlessui/react": "1.7.17",
