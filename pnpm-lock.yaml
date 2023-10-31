@@ -86,8 +86,8 @@ devDependencies:
     specifier: 13.4.7
     version: 13.4.7(eslint@8.42.0)(typescript@5.1.6)
   pnpm:
-    specifier: 8.6.5
-    version: 8.6.5
+    specifier: 8.6.8
+    version: 8.6.8
   typescript:
     specifier: 5.1.6
     version: 5.1.6
@@ -4493,8 +4493,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /pnpm@8.6.5:
-    resolution: {integrity: sha512-mztfvneJl4o9gCWfQlFKio6gVYhJbFazWUVBcomJ9u/yspwScHUxMyWvxOed1a543roo+aeIjp5VQkHOoTWFAg==}
+  /pnpm@8.6.8:
+    resolution: {integrity: sha512-OtrCRUE7VqRyKly9E3gfExZHOAHtFDpmulyVFKrnl3v/n2xJckdueVumWJqUA5FHxcRP/T42r8P8CDr9duPP9w==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
