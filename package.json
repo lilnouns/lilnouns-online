@@ -13,7 +13,7 @@
   "dependencies": {
     "@headlessui/react": "1.7.17",
     "@heroicons/react": "2.0.18",
-    "@types/react-blockies": "1.4.3",
+    "@types/react-blockies": "1.4.4",
     "autoprefixer": "10.4.16",
     "clsx": "2.0.0",
     "dayjs": "1.11.10",

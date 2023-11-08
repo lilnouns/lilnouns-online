@@ -15,8 +15,8 @@ dependencies:
     specifier: 2.0.18
     version: 2.0.18(react@18.2.0)
   '@types/react-blockies':
-    specifier: 1.4.3
-    version: 1.4.3
+    specifier: 1.4.4
+    version: 1.4.4
   autoprefixer:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.31)
@@ -1381,8 +1381,8 @@ packages:
   /@types/prop-types@15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  /@types/react-blockies@1.4.3:
-    resolution: {integrity: sha512-TCcV8Li6RNF+9BDO+BFAW6CQjLOSXc8dQGnfvRRyDTiyoq707PmD+pVHBhUsg0baH67GuuADpIJdVvW+vdPx6Q==}
+  /@types/react-blockies@1.4.4:
+    resolution: {integrity: sha512-7QfFeT1y/izwP/Wxmnl9Ii73udFQIBsfI/IvG+841sPxqc7Pf79ZDZP3XQsmYzAjDXdoZXquLgI/Q/tmAZwB0w==}
     dependencies:
       '@types/react': 18.2.37
     dev: false
