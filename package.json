@@ -1,6 +1,6 @@
 {
   "name": "lilnouns-online",
-  "version": "1.1.23",
+  "version": "1.1.24",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,7 +13,7 @@
   "dependencies": {
     "@headlessui/react": "1.7.17",
     "@heroicons/react": "2.0.18",
-    "@types/react-blockies": "1.4.3",
+    "@types/react-blockies": "1.4.4",
     "autoprefixer": "10.4.16",
     "clsx": "2.0.0",
     "dayjs": "1.11.10",
@@ -21,7 +21,7 @@
     "incstr": "1.2.3",
     "mangle-css-class-webpack-plugin": "5.1.0",
     "moment": "2.29.4",
-    "next": "14.0.1",
+    "next": "14.0.2",
     "next-seo": "6.4.0",
     "next-sitemap": "4.2.3",
     "postcss": "8.4.31",
@@ -33,12 +33,12 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20231025.0",
-    "@types/node": "20.8.9",
-    "@types/react": "18.2.33",
-    "@types/react-dom": "18.2.14",
-    "eslint": "8.52.0",
-    "eslint-config-next": "14.0.1",
-    "pnpm": "8.10.0",
+    "@types/node": "20.9.0",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
+    "eslint": "8.53.0",
+    "eslint-config-next": "14.0.2",
+    "pnpm": "8.10.5",
     "typescript": "5.2.2",
     "wrangler": "3.15.0"
   },

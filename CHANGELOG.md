@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.24] - 2023-11-16
+
+### Bug Fixes
+
+- Solve some minor issues and update dependencies
+
 ## [1.1.23] - 2023-10-31
 
 ### Refactor
