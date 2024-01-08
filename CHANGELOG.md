@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.27] - 2024-01-08
+
+### Documentation
+
+- Add new badge for wakatime to the `README.md`
+
 ## [1.1.26] - 2024-01-07
 
 ### Documentation
