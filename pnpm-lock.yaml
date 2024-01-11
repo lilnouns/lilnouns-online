@@ -71,8 +71,8 @@ devDependencies:
     specifier: 4.20231218.0
     version: 4.20231218.0
   '@types/node':
-    specifier: 20.10.8
-    version: 20.10.8
+    specifier: 20.11.0
+    version: 20.11.0
   '@types/react':
     specifier: 18.2.47
     version: 18.2.47
@@ -1380,7 +1380,7 @@ packages:
   /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
     dev: false
 
   /@types/debug@4.1.8:
@@ -1401,8 +1401,8 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: false
 
-  /@types/node@20.10.8:
-    resolution: {integrity: sha512-f8nQs3cLxbAFc00vEU59yf9UyGUftkPaLGfvbVOIDdx2i1b8epBqj2aNGyP19fiyXWvlmZ7qC1XLjAzw/OKIeA==}
+  /@types/node@20.11.0:
+    resolution: {integrity: sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==}
     dependencies:
       undici-types: 5.26.5
 
@@ -1438,7 +1438,7 @@ packages:
   /@types/ws@7.4.7:
     resolution: {integrity: sha512-JQbbmxZTZehdc2iszGKs5oC3NFnjeay7mtAWrdt7qNtAVK0g19muApzAy4bm9byz79xa2ZnO/BOBC2R8RC5Lww==}
     dependencies:
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
     dev: false
 
   /@typescript-eslint/parser@5.59.9(eslint@8.56.0)(typescript@5.3.3):
