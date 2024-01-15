@@ -56,5 +56,8 @@
       "type": "custom",
       "url": "https://ud.me/nekofar.crypto"
     }
-  ]
+  ],
+  "resolutions": {
+    "follow-redirects": ">=1.15.4"
+  }
 }
