@@ -1,6 +1,6 @@
 {
   "name": "lilnouns-online",
-  "version": "1.1.27",
+  "version": "1.1.28",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,7 +11,7 @@
     "wrangler": "wrangler pages dev out --compatibility-date=2023-10-19"
   },
   "dependencies": {
-    "@headlessui/react": "1.7.17",
+    "@headlessui/react": "1.7.18",
     "@heroicons/react": "2.1.1",
     "@types/react-blockies": "1.4.4",
     "autoprefixer": "10.4.16",
@@ -33,14 +33,14 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20231218.0",
-    "@types/node": "20.10.7",
+    "@types/node": "20.11.1",
     "@types/react": "18.2.47",
     "@types/react-dom": "18.2.18",
     "eslint": "8.56.0",
     "eslint-config-next": "14.0.4",
-    "pnpm": "8.14.0",
+    "pnpm": "8.14.1",
     "typescript": "5.3.3",
-    "wrangler": "3.22.3"
+    "wrangler": "3.22.4"
   },
   "pnpm": {
     "overrides": {
@@ -56,5 +56,10 @@
       "type": "custom",
       "url": "https://ud.me/nekofar.crypto"
     }
-  ]
+  ],
+  "resolutions": {
+    "follow-redirects": ">=1.15.4",
+    "axios": ">=1.6.0",
+    "semver": ">=7.5.2"
+  }
 }
