@@ -40,7 +40,7 @@
     "eslint-config-next": "14.1.0",
     "pnpm": "8.14.1",
     "typescript": "5.3.3",
-    "wrangler": "3.22.5"
+    "wrangler": "3.23.0"
   },
   "pnpm": {
     "overrides": {
